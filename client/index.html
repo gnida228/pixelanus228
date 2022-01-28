@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PixelBattle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/canvas.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/head.css"/>
+  <script src="/socket.io/socket.io.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="head_box">   
+    <div class="head_content">
+        <a href="/"class="logo">PixelBattle</a>
+        <ul>
+            <li><a href="/news">Новости</a></li>
+            <li><a class='#' href="#">топ</a></li>
+            <li><a href="/signin" id="LogIn">Войти</a></li>
+            <li><a href="https://www.donationalerts.com/r/pixelbattle">поддержать</a></li>
+        </ul>
+        <a id="online" style="font-size: 15px;">онлайн: </a>
+    </div>
+</div>
+<div class="body_box">
+
+  <div class="body_content">
+
+      <div class="game">
+        <div  class="game_content" data-elem="pinchzoomer"> 
+            <canvas id="bg" class="canvas" width="1560" height="400"></canvas>
+        </div>
+      </div>
+      <div class="game_tool">
+        <div id="coordinates">
+          X: 0 Y: 0
+        </div>
+          <div class="game_tool_content">
+              <button id="color32" class="color" ></button>
+              <button id="color1" class="color" ></button>
+              <button id="color2" class="color" ></button>
+              <button id="color3" class="color" ></button>
+              <button id="color4" class="color" ></button>
+              <button id="color5" class="color" ></button>
+              <button id="color6" class="color" ></button>
+              <button id="color7" class="color" ></button>
+              <button id="color8" class="color" ></button>
+              <button id="color9" class="color" ></button>
+              <button id="color10" class="color" ></button>
+              <button id="color11" class="color" ></button>
+              <button id="color12" class="color" ></button>
+              <button id="color13" class="color" ></button>
+              <button id="color14" class="color" ></button>
+              <button id="color15" class="color" ></button>
+              <button id="color16" class="color" ></button>
+              <button id="color17" class="color" ></button>
+              <button id="color18" class="color" ></button>
+              <button id="color19" class="color" ></button>
+              <button id="color20" class="color" ></button>
+              <button id="color21" class="color" ></button>
+              <button id="color22" class="color" ></button>
+              <button id="color23" class="color" ></button>
+              <button id="color24" class="color" ></button>
+              <button id="color25" class="color" ></button>
+              <button id="color26" class="color" ></button>
+              <button id="color27" class="color" ></button>
+              <button id="color28" class="color" ></button>
+              <button id="color29" class="color" ></button>
+              <button id="color30" class="color" ></button>
+              <button id="color31" class="color" ></button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<script>
+
+function getCookie(name) {
+
+var matches = document.cookie.match(new RegExp(
+  "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+))
+return matches ? decodeURIComponent(matches[1]) : undefined
+}
+  var checkcookie = getCookie("sex");
+  if(checkcookie){
+    $('#LogIn').replaceWith('<a href="/exit">Выйти</a>');
+  }else{
+    console.log('123');
+  }
+
+
+</script>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+
+  <script src="js/zoom.js"></script>
+  <script src="main.js"></script>
+</body>
+<footer style="text-align: center; margin-top: 15px;">
+  <a href="/authors"style="font-size: 9px; line-height: 5px;">Авторы </a>
+  <a style="font-size: 9px; line-height: 5px;"> | </a>
+  <a href="/eula"style="font-size: 9px; line-height: 5px;"> пользовательское соглашение</a>
+</footer>
+</html>

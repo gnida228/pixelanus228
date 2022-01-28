@@ -1,0 +1,52 @@
+.mane_page_box_news {
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mane_page_box_news_content {
+    width: 809px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_post {
+    width: 100%;
+    height: 100%;
+}
+
+.post {
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.041);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+p {
+    background: none;
+}
+a {
+    background: none;
+}
+
+.post:hover {
+    background: rgba(0, 0, 0, 0.082);
+    transition: 0.3s;
+}
+
+
+.msg_post {
+    color: #b3b9d1;
+}
+
+.login_post {
+    font-size: 13px;
+}
+
+.date_post {
+    font-size: 13px;
+}

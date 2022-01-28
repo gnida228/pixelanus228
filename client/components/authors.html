@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PixelBattle | Авторы</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/canvas.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/head.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/authors.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/news.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/signin.css"/>
+  <script src="/socket.io/socket.io.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="head_box">   
+    <div class="head_content">
+        <a href="/"class="logo">PixelBattle</a>
+        <ul>
+            <li><a href="/news">Новости</a></li>
+            <li><a class='#' href="/top">топ</a></li>
+            <li><a href="/signin" id="LogIn">Войти</a></li>
+            <li><a href="https://www.donationalerts.com/r/pixelbattle">поддержать</a></li>
+        </ul>
+    </div>
+</div>
+<div class="mane_page_box_news">
+  <div class="mane_page_box_news_content">
+      <div class='content_post'>
+          <h1>Авторы</h1>
+          <div class="post">
+              <p class='auth_lg'>- Kerbin (Руководитель) <a class='url_prof' href='https://vk.com/isgartiad'>href</a></p>
+              <p class='auth_lg'>- - bedlamite (программист) <a class='url_prof' href='https://vk.com/mnbvcxzlkjhgfdsapoiuytrewqfgafdf'>href</a></p>
+              <p class='auth_lg'>- - Serafim (программист) <a class='url_prof' href='https://vk.com/id676021310'>href</a></p>
+              <p class='auth_lg'>- - delunit (программист, серверная часть admin) <a class='url_prof' href='/#root'>root</a></p>
+          </div>
+      </div>
+  </div>
+</div>
+<script>
+
+    function getCookie(name) {
+  
+  var matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ))
+  return matches ? decodeURIComponent(matches[1]) : undefined
+  }
+    var checkcookie = getCookie("sex");
+    if(checkcookie){
+      $('#LogIn').replaceWith('<a href="/exit" id="exit" >Выйти</a>');
+    }else{
+      console.log('123');
+    }
+  
+  </script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+
+  <script src="js/zoom.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

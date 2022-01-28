@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PixelBattle | Вход</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/canvas.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/head.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/authors.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/news.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/signin.css"/>
+  <script src="/socket.io/socket.io.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="head_box">   
+    <div class="head_content">
+        <a href="/"class="logo">PixelBattle</a>
+        <ul>
+            <li><a href="/news">Новости</a></li>
+            <li><a class='#' href="/top">топ</a></li>
+            <li><a href="#">Войти</a></li>
+            <li><a href="https://www.donationalerts.com/r/pixelbattle">поддержать</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main_box_signin">
+    <div class="main_box_signin_content">
+        <div class="main_box_signin_content_border">
+          <div class="post">
+          <form style="background: none" method="post" action="/authDet">
+            <input id="login" name="login" placeholder="Логин"></input>
+            <br></br>
+            <input id="password" name="password" placeholder="Пароль"></input>
+            <br></br>
+            <button>Войти</button>
+            <p class='p_p'>- Для авторизации на нашей платформе нужно получить токен у телеграмм-бота:<a class='url_prof' href='https://t.me/PixeL2022BOT'> href</a></p>
+          </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.slim.js"
+  integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+  crossorigin="anonymous"></script>
+
+  <script src="js/zoom.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

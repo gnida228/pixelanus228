@@ -1,0 +1,253 @@
+::-webkit-scrollbar { /* chrome based */
+    width: 0px;  /* ширина scrollbar'a */
+    height: 0px;
+    background: transparent;  /* опционально */
+}
+
+*{
+        -moz-user-select: -moz-none;
+        -o-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+}
+
+
+
+.body_box {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body_content {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+}
+
+
+.game {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1560px;
+    max-height: 650px;
+    background: none;
+    overflow-y: hidden;
+}
+
+.game_content {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    transform: scale(1,1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.canvas {
+    display: block;
+    image-rendering: pixelated;
+    transform: scale(1,1);
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.game_tool {
+    margin-top: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background: none;
+    text-align: center;
+}
+
+.game_tool_content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.041);
+    padding: 0px;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.game_tool_content:hover {
+    background: rgba(0, 0, 0, 0.082);
+    transition: 0.3s;
+}
+
+.color {
+    margin-right: 7px;
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+}
+.color:hover {
+    outline: 1px solid white;
+    border-radius: 4px;
+}
+
+.size {
+    font-size: 19px;
+    margin-right: 7px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+}
+.size:hover {
+    opacity: 70%;
+}
+
+
+#color1 {
+    background-color: #2B2E31;
+}
+
+#color2 {
+    background-color: #61676a;
+}
+
+#color3 {
+    background: #a7adb1;
+}
+
+#color4 {
+    background: #dde2e4;
+}
+
+#color5 {
+    background: #fafafa;
+}
+
+#color6 {
+    background: #951a21;
+}
+
+#color7 {
+    background: #e91d2d;
+}
+
+#color8 {
+    background: #e9968c;
+}
+
+#color9 {
+    background: #e35b22;
+}
+
+#color10 {
+    background: #f5831f;
+}
+
+#color11 {
+    background: #fbc59a;
+}
+
+#color12 {
+    background: #ffdd1a;
+}
+
+#color13 {
+    background: #f8e6b7;
+}
+
+#color14 {
+    background: #126936;
+}
+
+#color15 {
+    background: #46b749;
+}
+
+#color16 {
+    background: #c8e4bd;
+}
+
+#color17 {
+    background: #1c505a;
+}
+
+#color18 {
+    background: #75cedb;
+}
+
+#color19 {
+    background: #0076a9;
+}
+
+#color20 {
+    background: #192e62;
+}
+
+#color21 {
+    background: #3b55a3;
+}
+
+#color22 {
+    background: #aebeed;
+}
+
+#color23 {
+    background: #492e72;
+}
+
+#color24 {
+    background: #7e3f98;
+}
+
+#color25 {
+    background: #d3bfe5;
+}
+
+#color26 {
+    background: #901c53;
+}
+
+#color27 {
+    background: #d70b8c;
+}
+
+#color28 {
+    background: #efb1d4;
+}
+
+#color29 {
+    background: #603913;
+}
+
+#color30 {
+    background: #a97b50;
+}
+
+#color31 {
+    background: #e2c095;
+}
+
+#color32 {
+    background: #070709;
+}
